@@ -5,7 +5,8 @@ import {
   NavLink
 } from 'react-router-dom';
 
-import logo from '../logo.svg';
+import {lazyPage1, lazyPage2, lazyPage3} from '../lazyload/pages';
+import logo from '../assets/logo.svg';
 
 export const Navigation = () => {
   return (
